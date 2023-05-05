@@ -58,7 +58,7 @@
 
 <div class="container-fluid">
 
-  <a class="btn btn-primary mb-3" href="<?=base_url('helpdesk/home/presence')?>">Presence personnel</a>
+  <a class="btn btn-primary mb-3" href="<?=base_url('')?>">Presence personnel</a>
 
   <div class="d-flex justify-content-center">
     <div class="bg-green border border-xs-1 p-2 rounded-3 mx-4">Technicien d'astreinte</div> <!-- c5deb5 -->
