@@ -93,6 +93,7 @@
 		</thead>
 	<tbody>
 		<tr>
+<<<<<<< HEAD
 			<td><button>clique</button></td>
 			<td><button>clique</button></td>
 			<td><button>clique</button></td>
@@ -113,6 +114,28 @@
 			<td><button>clique</button></td>
 			<td><button>clique</button></td>
 			<td><button>clique</button></td>
+=======
+			<td><button></button></td>
+			<td><button></button></td>
+			<td><button></button></td>
+			<td><button></button></td>
+			<td><button></button></td>
+			<td><button></button></td>
+			<td><button></button></td>
+			<td><button></button></td>
+			<td><button></button></td>
+			<td><button></button></td>
+			<td><button></button></td>
+			<td><button></button></td>
+			<td><button></button></td>
+			<td><button></button></td>
+			<td><button></button></td>
+			<td><button></button></td>
+			<td><button></button></td>
+			<td><button></button></td>
+			<td><button></button></td>
+			<td><button></button></td>
+>>>>>>> 9c444c41f50a7733e947f7c417adc8a151900088
 		</tr>
 	</tbody>
 </table>
