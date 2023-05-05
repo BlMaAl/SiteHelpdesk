@@ -93,26 +93,26 @@
 		</thead>
 	<tbody>
 		<tr>
-			<td><button></button></td>
-			<td><button></button></td>
-			<td><button></button></td>
-			<td><button></button></td>
-			<td><button></button></td>
-			<td><button></button></td>
-			<td><button></button></td>
-			<td><button></button></td>
-			<td><button></button></td>
-			<td><button></button></td>
-			<td><button></button></td>
-			<td><button></button></td>
-			<td><button></button></td>
-			<td><button></button></td>
-			<td><button></button></td>
-			<td><button></button></td>
-			<td><button></button></td>
-			<td><button></button></td>
-			<td><button></button></td>
-			<td><button></button></td>
+			<td><button>clique</button></td>
+			<td><button>clique</button></td>
+			<td><button>clique</button></td>
+			<td><button>clique</button></td>
+			<td><button>clique</button></td>
+			<td><button>clique</button></td>
+			<td><button>clique</button></td>
+			<td><button>clique</button></td>
+			<td><button>clique</button></td>
+			<td><button>clique</button></td>
+			<td><button>clique</button></td>
+			<td><button>clique</button></td>
+			<td><button>clique</button></td>
+			<td><button>clique</button></td>
+			<td><button>clique</button></td>
+			<td><button>clique</button></td>
+			<td><button>clique</button></td>
+			<td><button>clique</button></td>
+			<td><button>clique</button></td>
+			<td><button>clique</button></td>
 		</tr>
 	</tbody>
 </table>
