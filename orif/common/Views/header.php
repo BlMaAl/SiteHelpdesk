@@ -6,6 +6,9 @@
  * @link        https://github.com/OrifInformatique
  * @copyright   Copyright (c), Orif (https://www.orif.ch)
  */
+
+ session_start();
+ 
 ?>
 <!DOCTYPE html>
 <html lang="fr">
