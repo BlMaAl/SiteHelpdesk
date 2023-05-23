@@ -19,14 +19,6 @@ class Home extends BaseController
         helper('form');
     }
 
-    public function before(RequestInterface $request, $arguments = null)
-    {
-        if (!$this->session->has('user_id')) {
-            // L'utilisateur n'est pas connecté, redirigez-le vers la page de connexion
-            return redirect()->to('login');
-        }
-    }
-
 	public function index()
 	{
 		$data['title'] = "Helpdesk";
@@ -36,9 +28,33 @@ class Home extends BaseController
 
     public function presence()
     {
-        $data['title'] = "Presence Apprentie";
+        if(isset($_SESSION['user_id'])) {
+            $data['title'] = "Presence Apprentie";
 
-        $this->display_view('Helpdesk\presence', $data);
+            $this->display_view('Helpdesk\presence', $data);
+
+
+        }
+
+        else {
+            return redirect()->to('user/auth/login');
+        }
+    }
+
+    public function savePresence()
+    {
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            // Récupérer les données du formulaire
+            $fk_user_id = $_POST['fk_user_id'];
+            $fk_week_day_id = $_POST['fk_week_day_id'];
+            $fk_shift_type_id = $_POST['fk_shift_type_id'];
+            $fk_presence_type_id = $_POST['fk_presence_type_id'];
+        
+            // Insertion des données dans la table "presence"
+            $sql = "INSERT INTO presence (fk_user_id, fk_week_day_id, fk_shift_type_id, fk_presence_type_id)
+                    VALUES ('$fk_user_id', '$fk_week_day_id', '$fk_shift_type_id', '$fk_presence_type_id')";
+        
+        }
     }
 
 

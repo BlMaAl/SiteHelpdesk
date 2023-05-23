@@ -6,16 +6,6 @@
  * @link        https://github.com/OrifInformatique
  * @copyright   Copyright (c), Orif (https://www.orif.ch)
  */
-
-
-
-
-// Vérifie si l'utilisateur est connecté
-if (!isset($_SESSION['user_id'])) {
-    // Redirigez l'utilisateur vers la page de connexion
-    header('Location: login.php');
-    exit();
-}
 ?>
 
 <style>
@@ -128,7 +118,7 @@ if (!isset($_SESSION['user_id'])) {
 	<a class="btn btn-primary mb-3" href="<?=base_url('helpdesk/home')?>">Retour</a>
 
 	<form method="POST" action="">
-		<a class="btn btn-info mb-3" href="">Enregistrer</a>
+		<a class="btn btn-info mb-3" href="<?=base_url('savePresence')?>">Enregistrer</a>
 		
 		<!-- lundi -->
 		<div class="d-flex justify-content-center">

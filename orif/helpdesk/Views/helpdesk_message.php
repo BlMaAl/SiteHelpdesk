@@ -91,27 +91,22 @@
         <th colspan="4">Vendredi</th>
       </tr>
       <tr>
-        <!-- lundi -->
         <th>8:00 10:00</th>
         <th>10:00 12:00</th>
         <th>12:45 15:00</th>
         <th>15:00 16:57</th>
-        <!-- mardi -->
         <th>8:00 10:00</th>
         <th>10:00 12:00</th>
         <th>12:45 15:00</th>
         <th>15:00 16:57</th>
-        <!-- mercredi -->
         <th>8:00 10:00</th>
         <th>10:00 12:00</th>
         <th>12:45 15:00</th>
         <th>15:00 16:57</th>
-        <!-- jeudi -->
         <th>8:00 10:00</th>
         <th>10:00 12:00</th>
         <th>12:45 15:00</th>
         <th>15:00 16:57</th>
-        <!-- vendredi -->
         <th>8:00 10:00</th>
         <th>10:00 12:00</th>
         <th>12:45 15:00</th>
@@ -125,22 +120,18 @@
         <td></td>
         <td></td>
         <td></td>
-
         <td></td>
         <td></td>
         <td></td>
         <td></td>
-        
         <td></td>
         <td></td>
         <td></td>
         <td></td>
-        
         <td></td>
         <td></td>
         <td></td>
         <td></td>
-        
         <td></td>
         <td></td>
         <td></td>
